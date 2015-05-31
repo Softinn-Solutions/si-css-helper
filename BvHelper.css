@@ -12,6 +12,7 @@
     }
 }
 
+/* ======================== Layout */
 .margin-0px-auto {
     margin: 0 auto;
 }
@@ -31,9 +32,11 @@
 .margin-top-15px {
     margin-top: 15px;
 }
+
 .margin-top-20px {
     margin-top:20px
 }
+
 .margin-top-30px {
     margin-top: 30px;
 }
@@ -41,9 +44,11 @@
 .margin-top-60px {
     margin-top: 60px;
 }
+
 .margin-top-100px {
     margin-top: 100px;
 }
+
 .margin-bottom-5px {
     margin-bottom: 5px;
 }
@@ -67,6 +72,7 @@
 .margin-bottom-100px {
     margin-bottom: 100px;
 }
+
 .padding-0px {
     padding: 0px;
 }
@@ -99,11 +105,6 @@
     padding-bottom: 15px;
 }
 
-.round-border {
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-}
-
 .full-width {
     width: 100%;
     display: block;
@@ -122,8 +123,10 @@
     display: inline-block;
 }
 
-.white-font {
-    color: #ffffff;
+/* ======================== Looks */
+.round-border {
+    -ms-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .white-background {
@@ -133,6 +136,11 @@
 .transparent-background {
     background-image: none;
     background-color: transparent !important;    
+}
+
+/* ======================== Fonts */
+.white-font {
+    color: #ffffff;
 }
 
 .font-size-75 {
@@ -153,61 +161,5 @@
 
 .text-center img {
     margin: auto;
-}
-
-/* ====================  Notification Center */
-#notification-container {
-    float: left;
-    display: block;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.notification-item {
-    margin: 5px;
-    padding: 10px;
-    min-width: 200px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.notification-message {
-    display: inline-block;
-}
-
-.close-all-notification {
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    display: block;
-}
-
-.animate.ng-enter
-{ 
-	-webkit-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-	-moz-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-	-ms-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-	-o-transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-	transition: 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-	position: relative;
-	display: block;
-	overflow: hidden;
-	text-overflow: clip;
-	white-space:nowrap;
-} 
-
-.animate.ng-leave.animate.ng-leave-active,
-.animate.ng-enter {
-	opacity: 0;
-	width: 0px;
-	height: 0px;
-}
-
-.animate.ng-enter.ng-enter-active, 
-.animate.ng-leave {
-	opacity: 1;
-	width: 150px;
-	height: 30px;
 }
 	
