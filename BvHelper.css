@@ -181,4 +181,21 @@
        -moz-border-radius: 8px;
             border-radius: 8px;
 }
+
+/* ======================== Inputs */
+.input-xl {
+    border-radius: 6px;
+    font-size: 22px;
+    height: 58px;
+    line-height: 1.33333;
+    padding: 13px 20px;
+}
+
+.input-xxl {
+    border-radius: 6px;
+    font-size: 27px;
+    height: 69px;
+    line-height: 1.33333;
+    padding: 15px 24px;
+}
 	
