@@ -49,6 +49,14 @@
     margin-top: 100px;
 }
 
+.margin-top-150px {
+    margin-top: 150px;
+}
+
+.margin-top-300px {
+    margin-top: 300px;
+}
+
 .margin-bottom-5px {
     margin-bottom: 5px;
 }
@@ -71,6 +79,30 @@
 
 .margin-bottom-100px {
     margin-bottom: 100px;
+}
+
+.margin-bottom-150px {
+    margin-bottom: 150px;
+}
+
+.margin-bottom-300px {
+    margin-bottom: 300px;
+}
+
+.margin-left-5px {
+    margin-left: 5px;
+}
+
+.margin-left-10px {
+    margin-left: 10px;
+}
+
+.margin-right-5px {
+    margin-right: 5px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
 }
 
 .padding-0px {
@@ -159,10 +191,14 @@
     font-size: 200%;
 }
 
+.font-size-300 {
+    font-size: 300%;
+}
+
 .text-center img {
     margin: auto;
 }
-
+	
 /* ======================== Buttons */
 .btn-xl {
     padding: 18px 28px;
@@ -198,4 +234,3 @@
     line-height: 1.33333;
     padding: 15px 24px;
 }
-	
