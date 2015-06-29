@@ -97,12 +97,20 @@
     margin-left: 10px;
 }
 
+.margin-left-15px {
+    margin-left: 15px;
+}
+
 .margin-right-5px {
     margin-right: 5px;
 }
 
 .margin-right-10px {
     margin-right: 10px;
+}
+
+.margin-right-15px {
+    margin-right: 15px;
 }
 
 .padding-0px {
@@ -119,6 +127,10 @@
 
 .padding-15px {
     padding: 15px;
+}
+
+.padding-30px {
+    padding: 30px;
 }
 
 .padding-top-5px {
@@ -159,6 +171,14 @@
 .round-border {
     -ms-border-radius: 5px;
     border-radius: 5px;
+}
+
+.square-border {
+    border-radius: 0px;
+}
+
+.no-border {
+    border: 0px;
 }
 
 .white-background {
@@ -218,6 +238,10 @@
             border-radius: 8px;
 }
 
+.delete-button {
+    cursor: pointer;
+}
+
 /* ======================== Inputs */
 .input-xl {
     border-radius: 6px;
@@ -233,4 +257,23 @@
     height: 69px;
     line-height: 1.33333;
     padding: 15px 24px;
+}
+
+.fuel-ux-input-xl input {
+    font-size: 22px;
+    height: 64px;
+    line-height: 1.33333;
+    padding: 13px 20px;   
+}
+
+.form-control-feedback-xl {
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 20px;
+}
+
+/* ======================== List */
+.list-hover li:hover {
+    background-color: #fbfbfb;
 }
