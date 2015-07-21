@@ -12,13 +12,22 @@
     }
 }
 
-/* ======================== Layout */
+/* ======================== Layout Margin */
 .margin-0px-auto {
     margin: 0 auto;
 }
 
 .margin-0px {
     margin: 0px;
+}
+
+/* ======================== Layout Margin Top */
+.margin_top_-5px {
+    margin-top: -5px;
+}
+
+.margin_top_-15px {
+    margin-top: -15px;
 }
 
 .margin-top-5px {
@@ -41,8 +50,16 @@
     margin-top: 30px;
 }
 
+.margin-top-40px {
+    margin-top: 40px;
+}
+
 .margin-top-60px {
     margin-top: 60px;
+}
+
+.margin-top-80px {
+    margin-top: 80px;
 }
 
 .margin-top-100px {
@@ -53,10 +70,18 @@
     margin-top: 150px;
 }
 
+.margin-top-200px {
+    margin-top: 200px;
+}
+.margin-top-250px {
+    margin-top: 250px;
+}
+
 .margin-top-300px {
     margin-top: 300px;
 }
 
+/* ======================== Layout Margin Bottom */
 .margin-bottom-5px {
     margin-bottom: 5px;
 }
@@ -89,6 +114,15 @@
     margin-bottom: 300px;
 }
 
+/* ======================== Layout Margin : Left */
+.margin_left_-15px{
+    margin-left:-15px;
+}
+
+.margin_left_-20px {
+    margin-left: -20px;
+}
+
 .margin-left-5px {
     margin-left: 5px;
 }
@@ -101,6 +135,19 @@
     margin-left: 15px;
 }
 
+.margin-left-30px {
+    margin-left: 30px;
+}
+
+.margin-left-50px {
+    margin-left: 50px;
+}
+
+.margin-left-70px {
+    margin-left:70px;
+}
+
+/* ======================== Layout Margin : Right */
 .margin-right-5px {
     margin-right: 5px;
 }
@@ -113,6 +160,7 @@
     margin-right: 15px;
 }
 
+/* ======================== Layout Padding */
 .padding-0px {
     padding: 0px;
 }
@@ -129,10 +177,15 @@
     padding: 15px;
 }
 
+.padding-25px {
+    padding: 25px;
+}
+
 .padding-30px {
     padding: 30px;
 }
 
+/* ======================== Layout Padding : Top */
 .padding-top-5px {
     padding-top: 5px;
 }
@@ -141,6 +194,19 @@
     padding-top: 15px;
 }
 
+.padding-top-30px {
+    padding-top: 30px;
+}
+
+.padding-top-60px {
+    padding-top: 60px;
+}
+
+.padding-top-130px {
+    padding-top: 130px;
+}
+
+/* ======================== Layout Padding : Bottom */
 .padding-bottom-5px {
     padding-bottom: 5px;
 }
@@ -149,6 +215,21 @@
     padding-bottom: 15px;
 }
 
+/* ======================== Layout Padding : Left */
+.padding-left-10px {
+    padding-left: 10px;
+}
+
+.padding-left-20px {
+    padding-left: 20px;
+}
+
+.padding-left-100px {
+    padding-left: 100px;
+}
+
+
+/* ======================== Layout  */
 .full-width {
     width: 100%;
     display: block;
@@ -190,11 +271,49 @@
     background-color: transparent !important;    
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.carousel-with-no-background-cursor  .carousel-control.left, .carousel-with-no-background-cursor .carousel-control.right {
+	background-image: none;
+}
+
 /* ======================== Fonts */
 .white-font {
     color: #ffffff;
 }
 
+/* ======================== Fonts : Point */
+.font-size-10pt {
+    font-size: 10pt;
+}
+
+.font-size-15pt {
+    font-size: 15pt;
+}
+
+.font-size-18pt {
+    font-size: 18pt;
+}
+
+.font-size-20pt {
+    font-size: 20pt;
+}
+
+.font-size-25pt {
+    font-size: 25pt;
+}
+
+.font-size-30pt {
+    font-size: 30pt;
+}
+
+.font-size-35pt {
+    font-size: 35pt;
+}
+
+/* ======================== Fonts : Percentage */
 .font-size-75 {
     font-size: 85%;
 }
@@ -205,6 +324,10 @@
 
 .font-size-150 {
     font-size: 150%;
+}
+
+.font-size-175 {
+    font-size: 175%;
 }
 
 .font-size-200 {
@@ -218,7 +341,7 @@
 .text-center img {
     margin: auto;
 }
-	
+
 /* ======================== Buttons */
 .btn-xl {
     padding: 18px 28px;
@@ -271,6 +394,19 @@
     height: 58px;
     line-height: 58px;
     font-size: 20px;
+}
+
+/* ======================== Image */
+.img-150 {
+	height: 150px;
+}
+
+.img-200 {
+	height: 200px;
+}
+
+.img-300 {
+	height: 300px;
 }
 
 /* ======================== List */
