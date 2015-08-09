@@ -275,8 +275,15 @@
     cursor: pointer;
 }
 
-.carousel-with-no-background-cursor  .carousel-control.left, .carousel-with-no-background-cursor .carousel-control.right {
+.carousel-with-no-background-cursor  .carousel-control.left, 
+.carousel-with-no-background-cursor .carousel-control.right {
 	background-image: none;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
 }
 
 /* ======================== Fonts */
@@ -412,4 +419,9 @@
 /* ======================== List */
 .list-hover li:hover {
     background-color: #fbfbfb;
+}
+
+/* ======================== Additional Support for AngularJS ng-cloak */
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none;
 }
