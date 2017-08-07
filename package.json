@@ -1,0 +1,22 @@
+{
+    "name": "si-css-helper",
+    "version": "1.0.1",
+    "description": "Some useful css classes that complements twitter bootstrap",
+    "author": "Softinn",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+    },
+    "scripts": {
+        "test": "echo \"No test scripts implemented.\" && exit 1",
+        "publish-node-package": "npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeeshenlee/si-css-helper.git"
+    },
+    "keywords": [
+        "softinn",
+        "bootstrap"
+    ]
+}

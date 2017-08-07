@@ -1,9 +1,13 @@
 ﻿@media all and (max-width: 1200px) {
-
 }
 
 @media all and (max-width: 1000px) {
+}
 
+@media (min-width: 768px) {
+    .modal-md {
+        width: 400px;
+    }
 }
 
 @media all and (max-width: 500px) {
@@ -22,12 +26,8 @@
 }
 
 /* ======================== Layout Margin Top */
-.margin_top_-5px {
-    margin-top: -5px;
-}
-
-.margin_top_-15px {
-    margin-top: -15px;
+.margin-top-1px {
+    margin-top: 1px;
 }
 
 .margin-top-5px {
@@ -43,7 +43,11 @@
 }
 
 .margin-top-20px {
-    margin-top:20px
+    margin-top: 20px
+}
+
+.margin-top-25px {
+    margin-top: 25px;
 }
 
 .margin-top-30px {
@@ -73,6 +77,7 @@
 .margin-top-200px {
     margin-top: 200px;
 }
+
 .margin-top-250px {
     margin-top: 250px;
 }
@@ -82,6 +87,10 @@
 }
 
 /* ======================== Layout Margin Bottom */
+.margin-bottom-0px {
+    margin-bottom: 0px;
+}
+
 .margin-bottom-5px {
     margin-bottom: 5px;
 }
@@ -115,8 +124,8 @@
 }
 
 /* ======================== Layout Margin : Left */
-.margin_left_-15px{
-    margin-left:-15px;
+.margin_left_-15px {
+    margin-left: -15px;
 }
 
 .margin_left_-20px {
@@ -144,7 +153,7 @@
 }
 
 .margin-left-70px {
-    margin-left:70px;
+    margin-left: 70px;
 }
 
 /* ======================== Layout Margin : Right */
@@ -175,6 +184,10 @@
 
 .padding-15px {
     padding: 15px;
+}
+
+.padding-20px {
+    padding: 20px;
 }
 
 .padding-25px {
@@ -215,6 +228,14 @@
     padding-bottom: 15px;
 }
 
+.padding-bottom-20px {
+    padding-bottom: 20px;
+}
+
+.padding-bottom-30px {
+    padding-bottom: 30px;
+}
+
 /* ======================== Layout Padding : Left */
 .padding-left-10px {
     padding-left: 10px;
@@ -228,6 +249,10 @@
     padding-left: 100px;
 }
 
+/* ======================== Layout Padding : Right */
+.padding-right-0px {
+    padding-right: 0px;
+}
 
 /* ======================== Layout  */
 .full-width {
@@ -248,6 +273,10 @@
     display: inline-block;
 }
 
+.clear-both {
+    clear: both;
+}
+
 /* ======================== Looks */
 .round-border {
     -ms-border-radius: 5px;
@@ -266,18 +295,22 @@
     background-color: #ffffff;
 }
 
+.grey-background {
+    background-color: #fafbfb;
+}
+
 .transparent-background {
     background-image: none;
-    background-color: transparent !important;    
+    background-color: transparent !important;
 }
 
 .cursor-pointer {
     cursor: pointer;
 }
 
-.carousel-with-no-background-cursor  .carousel-control.left, 
+.carousel-with-no-background-cursor .carousel-control.left,
 .carousel-with-no-background-cursor .carousel-control.right {
-	background-image: none;
+    background-image: none;
 }
 
 .scrollable-menu {
@@ -286,14 +319,46 @@
     overflow-x: hidden;
 }
 
+.hidden-display {
+    visibility: hidden;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
 /* ======================== Fonts */
+.text-line-through {
+    text-decoration: line-through;
+}
+
 .white-font {
     color: #ffffff;
 }
 
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-style-italic {
+    font-style: italic;
+}
+
 /* ======================== Fonts : Point */
+.font-size-inherit {
+    font-size: inherit;
+}
+
 .font-size-10pt {
     font-size: 10pt;
+}
+
+.font-size-12pt {
+    font-size: 12pt;
 }
 
 .font-size-15pt {
@@ -355,8 +420,8 @@
     font-size: 22px;
     line-height: normal;
     -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .btn-xxl {
@@ -364,12 +429,16 @@
     font-size: 28px;
     line-height: normal;
     -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .delete-button {
     cursor: pointer;
+}
+
+.btn-rectangle {
+    border-radius: 0 !important;
 }
 
 /* ======================== Inputs */
@@ -393,7 +462,7 @@
     font-size: 22px;
     height: 64px;
     line-height: 1.33333;
-    padding: 13px 20px;   
+    padding: 13px 20px;
 }
 
 .form-control-feedback-xl {
@@ -405,15 +474,15 @@
 
 /* ======================== Image */
 .img-150 {
-	height: 150px;
+    height: 150px;
 }
 
 .img-200 {
-	height: 200px;
+    height: 200px;
 }
 
 .img-300 {
-	height: 300px;
+    height: 300px;
 }
 
 /* ======================== List */
@@ -424,4 +493,9 @@
 /* ======================== Additional Support for AngularJS ng-cloak */
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none;
+}
+
+/*========================= Min Width*/
+.min-Width-100 {
+    min-width: 100%;
 }
