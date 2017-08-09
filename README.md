@@ -13,6 +13,32 @@ Make sure you have reference to Twitter Bootstrap stylesheets before you include
 npm install si-css-helper
 ```
 
+You may consider using WebPack to move the included si-css-helper to the folder of your web app. Below is an example we did using WebPack (TypeScript version).
+```
+import * as webpack from 'webpack';
+import * as ExtractTextPlugin from 'extract-text-webpack-plugin';
+
+const config: webpack.Configuration = {
+    entry: [
+        "./node_modules/@softinn/si-css-helper/si-css-helper.css"
+    ],
+    output: {
+        filename: "/Content/si-css-helper.css"
+    },
+    module: {
+        rules: [{
+            test: /\.css$/,
+            use: ExtractTextPlugin.extract('css-loader')
+        }]
+    },
+    plugins: [
+        new ExtractTextPlugin("./Content/si-css-helper.css")
+    ]
+};
+
+export default config;
+```
+
 ## Authors
 
 The list of [contributors](https://github.com/jeeshenlee/si-css-helper/graphs/contributors) who participated in this project.
