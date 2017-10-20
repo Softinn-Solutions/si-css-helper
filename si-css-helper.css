@@ -303,19 +303,6 @@
     border: 0px;
 }
 
-.white-background {
-    background-color: #ffffff;
-}
-
-.grey-background {
-    background-color: #fafbfb;
-}
-
-.transparent-background {
-    background-image: none;
-    background-color: transparent !important;
-}
-
 .cursor-pointer {
     cursor: pointer;
 }
@@ -339,13 +326,27 @@
     cursor: pointer;
 }
 
+/* ======================== Background Colors */
+.background-white {
+    background-color: #ffffff;
+}
+
+.background-grey {
+    background-color: #fafbfb;
+}
+
+.background-black {
+    background-color: #000000;
+}
+
+.transparent-background {
+    background-image: none;
+    background-color: transparent !important;
+}
+
 /* ======================== Fonts */
 .text-line-through {
     text-decoration: line-through;
-}
-
-.white-font {
-    color: #ffffff;
 }
 
 .font-weight-normal {
@@ -358,6 +359,15 @@
 
 .font-style-italic {
     font-style: italic;
+}
+
+/* ======================== Text Colors */
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
 }
 
 /* ======================== Fonts : Point */
@@ -426,6 +436,51 @@
     margin: auto;
 }
 
+/* ======================== Line Height */
+.line-height-normal {
+    line-height: normal;
+}
+
+.line-height-12px {
+    line-height: 12px;
+}
+
+.line-height-scale-100 {
+    line-height: 100%;
+}
+
+.line-height-scale-110 {
+    line-height: 110%;
+}
+
+.line-height-scale-120 {
+    line-height: 120%;
+}
+
+.line-height-scale-130 {
+    line-height: 130%;
+}
+
+.line-height-scale-140 {
+    line-height: 140%;
+}
+
+.line-height-scale-150 {
+    line-height: 150%;
+}
+
+.line-height-scale-180 {
+    line-height: 180%;
+}
+
+.line-height-scale-200 {
+    line-height: 200%;
+}
+
+.line-height-scale-250 {
+    line-height: 250%;
+}
+
 /* ======================== Buttons */
 .btn-xl {
     padding: 18px 28px;
@@ -447,6 +502,7 @@
     border-radius: 0 !important;
 }
 
+/* ======================== Border Radius */
 .b-r-xs {
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
