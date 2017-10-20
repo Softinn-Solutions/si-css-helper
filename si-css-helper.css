@@ -299,7 +299,7 @@
     border-radius: 0px;
 }
 
-.no-border {
+.border-0px {
     border: 0px;
 }
 
@@ -481,6 +481,10 @@
     line-height: 250%;
 }
 
+.line-height-scale-300 {
+    line-height: 300%;
+}
+
 /* ======================== Buttons */
 .btn-xl {
     padding: 18px 28px;
@@ -585,6 +589,10 @@
 /* ======================== Additional Support for AngularJS ng-cloak */
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none;
+}
+
+*:focus {
+    outline: none;
 }
 
 /*========================= Min Width*/
