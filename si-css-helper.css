@@ -339,7 +339,7 @@
     background-color: #000000;
 }
 
-.transparent-background {
+.background-transparent {
     background-image: none;
     background-color: transparent !important;
 }
@@ -432,10 +432,6 @@
     font-size: 300%;
 }
 
-.text-center img {
-    margin: auto;
-}
-
 /* ======================== Line Height */
 .line-height-normal {
     line-height: normal;
@@ -483,6 +479,27 @@
 
 .line-height-scale-300 {
     line-height: 300%;
+}
+
+/* ======================== Text Align */
+.verticle-align-top {
+    vertical-align: top;
+}
+
+.verticle-align-middle {
+    vertical-align: middle;
+}
+
+.vertical-align-bottom {
+    vertical-align: bottom;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
 }
 
 /* ======================== Buttons */
@@ -579,6 +596,10 @@
 
 .img-300 {
     height: 300px;
+}
+
+.text-center img {
+    margin: auto;
 }
 
 /* ======================== List */
