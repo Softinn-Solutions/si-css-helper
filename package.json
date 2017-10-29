@@ -1,12 +1,11 @@
 {
     "name": "@softinn/si-css-helper",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "description": "Some useful css classes that complements twitter bootstrap",
     "author": "Softinn",
     "license": "MIT",
     "private": false,
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "scripts": {
         "test": "echo \"No test scripts implemented.\" && exit 1",
         "publish-node-package": "npm publish --access public",
