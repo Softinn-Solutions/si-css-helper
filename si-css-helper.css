@@ -326,6 +326,22 @@
     cursor: pointer;
 }
 
+/* ======================== Opacity */
+.opacity-10 {
+    opacity: 0.1;
+}
+
+.opacity-20 {
+    opacity: 0.2;
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
+
+.opacity-100 {
+    opacity: 1.0;
+}
 /* ======================== Background Colors */
 .background-white {
     background-color: #ffffff;
@@ -482,11 +498,11 @@
 }
 
 /* ======================== Text Align */
-.verticle-align-top {
+.vertical-align-top {
     vertical-align: top;
 }
 
-.verticle-align-middle {
+.vertical-align-middle {
     vertical-align: middle;
 }
 
