@@ -636,3 +636,14 @@
 .min-Width-100 {
     min-width: 100%;
 }
+
+/*========================= Customize Form */
+.si-form-inline .si-form-group-left {
+    float: left;
+    margin-right: 5px;
+}
+
+.si-form-inline .si-form-group-right {
+    float: right;
+    margin-left: 5px;
+}
