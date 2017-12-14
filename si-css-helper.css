@@ -539,6 +539,18 @@
     border-radius: 0 !important;
 }
 
+.btn-dropdown-fullwidth {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+    .btn-dropdown-fullwidth .btn:first-child {
+        flex-grow: 1;
+        text-align: left;
+    }
+
+
 /* ======================== Border Radius */
 .b-r-xs {
     -webkit-border-radius: 1px;
