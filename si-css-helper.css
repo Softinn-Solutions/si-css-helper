@@ -1,5 +1,4 @@
-﻿/*#region Media Area */
-@media all and (max-width: 1200px) {
+﻿@media all and (max-width: 1200px) {
 }
 
 @media all and (max-width: 1000px) {
@@ -16,21 +15,8 @@
         font-size: 13px;
     }
 }
-/*#endregion Media Area */
 
-/*#region Additional Support for Bootstrap */
-.row.display-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-    
-    .row.display-flex > [class*='col-'] {
-        display: flex;
-        flex-direction: column;
-    }
-/*#endregion Additional Support for Bootstrap */
-
-/*#region Layout Margin */
+/* ======================== Layout Margin */
 .margin-0px-auto {
     margin: 0 auto;
 }
@@ -38,9 +24,8 @@
 .margin-0px {
     margin: 0px;
 }
-/*#endregion Layout Margin */
 
-/*#region Layout Margin Top */
+/* ======================== Layout Margin Top */
 .margin-top-1px {
     margin-top: 1px;
 }
@@ -104,9 +89,8 @@
 .margin-top-300px {
     margin-top: 300px;
 }
-/*#endregion Layout Margin Top */
 
-/*#region Layout Margin Bottom */
+/* ======================== Layout Margin Bottom */
 .margin-bottom-0px {
     margin-bottom: 0px;
 }
@@ -146,9 +130,8 @@
 .margin-bottom-300px {
     margin-bottom: 300px;
 }
-/*#endregion Layout Margin Bottom */
 
-/*#region Layout Margin : Left */
+/* ======================== Layout Margin : Left */
 .margin_left_-15px {
     margin-left: -15px;
 }
@@ -180,9 +163,8 @@
 .margin-left-70px {
     margin-left: 70px;
 }
-/*#endregion Layout Margin : Left */
 
-/*#region Layout Margin : Right */
+/* ======================== Layout Margin : Right */
 .margin-right-5px {
     margin-right: 5px;
 }
@@ -194,9 +176,8 @@
 .margin-right-15px {
     margin-right: 15px;
 }
-/*#endregion Layout Margin : Right */
 
-/*#region Layout Padding */
+/* ======================== Layout Padding */
 .padding-0px {
     padding: 0px;
 }
@@ -224,9 +205,8 @@
 .padding-30px {
     padding: 30px;
 }
-/*#endregion Layout Padding */
 
-/*#region Layout Padding : Top */
+/* ======================== Layout Padding : Top */
 .padding-top-5px {
     padding-top: 5px;
 }
@@ -250,9 +230,8 @@
 .padding-top-130px {
     padding-top: 130px;
 }
-/*#endregion Layout Padding : Top */
 
-/*#region Layout Padding : Bottom */
+/* ======================== Layout Padding : Bottom */
 .padding-bottom-5px {
     padding-bottom: 5px;
 }
@@ -268,9 +247,8 @@
 .padding-bottom-30px {
     padding-bottom: 30px;
 }
-/*#endregion Layout Padding : Bottom */
 
-/*#region Layout Padding : Left */
+/* ======================== Layout Padding : Left */
 .padding-left-10px {
     padding-left: 10px;
 }
@@ -282,15 +260,13 @@
 .padding-left-100px {
     padding-left: 100px;
 }
-/*#endregion Layout Padding : Left */
 
-/*#region Layout Padding : Right */
+/* ======================== Layout Padding : Right */
 .padding-right-0px {
     padding-right: 0px;
 }
-/*#endregion Layout Padding : Right */
 
-/*#region Layout  */
+/* ======================== Layout  */
 .full-width {
     width: 100%;
     display: block;
@@ -312,9 +288,8 @@
 .clear-both {
     clear: both;
 }
-/*#endregion Layout  */
 
-/*#region Looks */
+/* ======================== Looks */
 .round-border {
     -ms-border-radius: 5px;
     border-radius: 5px;
@@ -350,9 +325,8 @@
 .panel-heading {
     cursor: pointer;
 }
-/*#endregion Looks */
 
-/*#region Opacity */
+/* ======================== Opacity */
 .opacity-10 {
     opacity: 0.1;
 }
@@ -368,9 +342,7 @@
 .opacity-100 {
     opacity: 1.0;
 }
-/*#endregion Opacity */
-
-/*#region Background Colors */
+/* ======================== Background Colors */
 .background-white {
     background-color: #ffffff;
 }
@@ -387,9 +359,8 @@
     background-image: none;
     background-color: transparent !important;
 }
-/*#endregion Background Colors */
 
-/*#region Fonts */
+/* ======================== Fonts */
 .text-line-through {
     text-decoration: line-through;
 }
@@ -405,9 +376,8 @@
 .font-style-italic {
     font-style: italic;
 }
-/*#endregion Fonts */
 
-/*#region Text Colors */
+/* ======================== Text Colors */
 .text-white {
     color: #ffffff;
 }
@@ -415,9 +385,8 @@
 .text-black {
     color: #000000;
 }
-/*#endregion Text Colors */
 
-/*#region Fonts : Point */
+/* ======================== Fonts : Point */
 .font-size-inherit {
     font-size: inherit;
 }
@@ -453,9 +422,8 @@
 .font-size-35pt {
     font-size: 35pt;
 }
-/*#endregion Fonts : Point */
 
-/*#region Fonts : Percentage */
+/* ======================== Fonts : Percentage */
 .font-size-75 {
     font-size: 85%;
 }
@@ -479,9 +447,8 @@
 .font-size-300 {
     font-size: 300%;
 }
-/*#endregion Fonts : Percentage */
 
-/*#region Line Height */
+/* ======================== Line Height */
 .line-height-normal {
     line-height: normal;
 }
@@ -529,9 +496,8 @@
 .line-height-scale-300 {
     line-height: 300%;
 }
-/*#endregion Line Height */
 
-/*#region Text Align */
+/* ======================== Text Align */
 .vertical-align-top {
     vertical-align: top;
 }
@@ -551,9 +517,8 @@
 .text-align-justify {
     text-align: justify;
 }
-/*#endregion Text Align */
 
-/*#region Buttons */
+/* ======================== Buttons */
 .btn-xl {
     padding: 18px 28px;
     font-size: 22px;
@@ -584,9 +549,9 @@
         flex-grow: 1;
         text-align: left;
     }
-/*#endregion Buttons */
 
-/*#region Border Radius */
+
+/* ======================== Border Radius */
 .b-r-xs {
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -616,9 +581,8 @@
     -moz-border-radius: 24px;
     border-radius: 24px;
 }
-/*#endregion Border Radius */
 
-/*#region Inputs */
+/* ======================== Inputs */
 .input-xl {
     border-radius: 6px;
     font-size: 22px;
@@ -648,9 +612,8 @@
     line-height: 58px;
     font-size: 20px;
 }
-/*#endregion Inputs */
 
-/*#region Image */
+/* ======================== Image */
 .img-150 {
     height: 150px;
 }
@@ -666,15 +629,13 @@
 .text-center img {
     margin: auto;
 }
-/*#endregion Image */
 
-/*#region List */
+/* ======================== List */
 .list-hover li:hover {
     background-color: #fbfbfb;
 }
-/*#endregion List */
 
-/*#region Additional Support for AngularJS ng-cloak */
+/* ======================== Additional Support for AngularJS ng-cloak */
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none;
 }
@@ -682,15 +643,13 @@
 *:focus {
     outline: none;
 }
-/*#endregion Additional Support for AngularJS ng-cloak */
 
-/*#region Min Width*/
+/*========================= Min Width*/
 .min-Width-100 {
     min-width: 100%;
 }
-/*#endregion Min Width*/
 
-/*#region Customize Form */
+/*========================= Customize Form */
 .si-form-inline .si-form-group-left {
     float: left;
     margin-right: 5px;
@@ -700,9 +659,8 @@
     float: right;
     margin-left: 5px;
 }
-/*#endregion Customize Form */
 
-/*#region Google Chrome */
+/*========================= Google Chrome */
 input::-webkit-calendar-picker-indicator {
     display: none;
 }
@@ -710,4 +668,3 @@ input::-webkit-calendar-picker-indicator {
 input[type="date"]::-webkit-input-placeholder {
     visibility: hidden !important;
 }
-/*#endregion Google Chrome */
