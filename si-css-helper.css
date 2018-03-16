@@ -1,4 +1,5 @@
-﻿@media all and (max-width: 1200px) {
+﻿/*#region Media Area */
+@media all and (max-width: 1200px) {
 }
 
 @media all and (max-width: 1000px) {
@@ -15,8 +16,21 @@
         font-size: 13px;
     }
 }
+/*#endregion Media Area */
 
-/* ======================== Layout Margin */
+/*#region Additional Support for Bootstrap */
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .row.display-flex > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+/*#endregion Additional Support for Bootstrap */
+
+/*#region Layout Margin */
 .margin-0px-auto {
     margin: 0 auto;
 }
@@ -24,8 +38,9 @@
 .margin-0px {
     margin: 0px;
 }
+/*#endregion Layout Margin */
 
-/* ======================== Layout Margin Top */
+/*#region Layout Margin Top */
 .margin-top-1px {
     margin-top: 1px;
 }
@@ -89,8 +104,9 @@
 .margin-top-300px {
     margin-top: 300px;
 }
+/*#endregion Layout Margin Top */
 
-/* ======================== Layout Margin Bottom */
+/*#region Layout Margin Bottom */
 .margin-bottom-0px {
     margin-bottom: 0px;
 }
@@ -130,8 +146,9 @@
 .margin-bottom-300px {
     margin-bottom: 300px;
 }
+/*#endregion Layout Margin Bottom */
 
-/* ======================== Layout Margin : Left */
+/*#region Layout Margin : Left */
 .margin_left_-15px {
     margin-left: -15px;
 }
@@ -163,8 +180,9 @@
 .margin-left-70px {
     margin-left: 70px;
 }
+/*#endregion Layout Margin : Left */
 
-/* ======================== Layout Margin : Right */
+/*#region Layout Margin : Right */
 .margin-right-5px {
     margin-right: 5px;
 }
@@ -176,8 +194,9 @@
 .margin-right-15px {
     margin-right: 15px;
 }
+/*#endregion Layout Margin : Right */
 
-/* ======================== Layout Padding */
+/*#region Layout Padding */
 .padding-0px {
     padding: 0px;
 }
@@ -205,8 +224,9 @@
 .padding-30px {
     padding: 30px;
 }
+/*#endregion Layout Padding */
 
-/* ======================== Layout Padding : Top */
+/*#region Layout Padding : Top */
 .padding-top-5px {
     padding-top: 5px;
 }
@@ -230,8 +250,9 @@
 .padding-top-130px {
     padding-top: 130px;
 }
+/*#endregion Layout Padding : Top */
 
-/* ======================== Layout Padding : Bottom */
+/*#region Layout Padding : Bottom */
 .padding-bottom-5px {
     padding-bottom: 5px;
 }
@@ -247,8 +268,12 @@
 .padding-bottom-30px {
     padding-bottom: 30px;
 }
+/*#endregion Layout Padding : Bottom */
 
-/* ======================== Layout Padding : Left */
+/*#region Layout Padding : Left */
+.padding-left-0px {
+    padding-left: 0px;
+}
 .padding-left-10px {
     padding-left: 10px;
 }
@@ -260,13 +285,27 @@
 .padding-left-100px {
     padding-left: 100px;
 }
+/*#endregion Layout Padding : Left */
 
-/* ======================== Layout Padding : Right */
+/*#region Layout Padding : Right */
 .padding-right-0px {
     padding-right: 0px;
 }
 
-/* ======================== Layout  */
+.padding-right-10px {
+    padding-right: 10px;
+}
+
+.padding-right-20px {
+    padding-right: 20px;
+}
+
+.padding-right-100px {
+    padding-right: 100px;
+}
+/*#endregion Layout Padding : Right */
+
+/*#region Layout  */
 .full-width {
     width: 100%;
     display: block;
@@ -288,8 +327,9 @@
 .clear-both {
     clear: both;
 }
+/*#endregion Layout  */
 
-/* ======================== Looks */
+/*#region Looks */
 .round-border {
     -ms-border-radius: 5px;
     border-radius: 5px;
@@ -325,8 +365,9 @@
 .panel-heading {
     cursor: pointer;
 }
+/*#endregion Looks */
 
-/* ======================== Opacity */
+/*#region Opacity */
 .opacity-10 {
     opacity: 0.1;
 }
@@ -342,7 +383,9 @@
 .opacity-100 {
     opacity: 1.0;
 }
-/* ======================== Background Colors */
+/*#endregion Opacity */
+
+/*#region Background Colors */
 .background-white {
     background-color: #ffffff;
 }
@@ -359,8 +402,9 @@
     background-image: none;
     background-color: transparent !important;
 }
+/*#endregion Background Colors */
 
-/* ======================== Fonts */
+/*#region Fonts */
 .text-line-through {
     text-decoration: line-through;
 }
@@ -376,8 +420,9 @@
 .font-style-italic {
     font-style: italic;
 }
+/*#endregion Fonts */
 
-/* ======================== Text Colors */
+/*#region Text Colors */
 .text-white {
     color: #ffffff;
 }
@@ -385,8 +430,9 @@
 .text-black {
     color: #000000;
 }
+/*#endregion Text Colors */
 
-/* ======================== Fonts : Point */
+/*#region Fonts : Point */
 .font-size-inherit {
     font-size: inherit;
 }
@@ -422,8 +468,9 @@
 .font-size-35pt {
     font-size: 35pt;
 }
+/*#endregion Fonts : Point */
 
-/* ======================== Fonts : Percentage */
+/*#region Fonts : Percentage */
 .font-size-75 {
     font-size: 85%;
 }
@@ -447,8 +494,9 @@
 .font-size-300 {
     font-size: 300%;
 }
+/*#endregion Fonts : Percentage */
 
-/* ======================== Line Height */
+/*#region Line Height */
 .line-height-normal {
     line-height: normal;
 }
@@ -496,8 +544,9 @@
 .line-height-scale-300 {
     line-height: 300%;
 }
+/*#endregion Line Height */
 
-/* ======================== Text Align */
+/*#region Text Align */
 .vertical-align-top {
     vertical-align: top;
 }
@@ -517,8 +566,9 @@
 .text-align-justify {
     text-align: justify;
 }
+/*#endregion Text Align */
 
-/* ======================== Buttons */
+/*#region Buttons */
 .btn-xl {
     padding: 18px 28px;
     font-size: 22px;
@@ -549,9 +599,9 @@
         flex-grow: 1;
         text-align: left;
     }
+/*#endregion Buttons */
 
-
-/* ======================== Border Radius */
+/*#region Border Radius */
 .b-r-xs {
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -581,8 +631,9 @@
     -moz-border-radius: 24px;
     border-radius: 24px;
 }
+/*#endregion Border Radius */
 
-/* ======================== Inputs */
+/*#region Inputs */
 .input-xl {
     border-radius: 6px;
     font-size: 22px;
@@ -612,8 +663,9 @@
     line-height: 58px;
     font-size: 20px;
 }
+/*#endregion Inputs */
 
-/* ======================== Image */
+/*#region Image */
 .img-150 {
     height: 150px;
 }
@@ -629,13 +681,15 @@
 .text-center img {
     margin: auto;
 }
+/*#endregion Image */
 
-/* ======================== List */
+/*#region List */
 .list-hover li:hover {
     background-color: #fbfbfb;
 }
+/*#endregion List */
 
-/* ======================== Additional Support for AngularJS ng-cloak */
+/*#region Additional Support for AngularJS ng-cloak */
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none;
 }
@@ -643,13 +697,15 @@
 *:focus {
     outline: none;
 }
+/*#endregion Additional Support for AngularJS ng-cloak */
 
-/*========================= Min Width*/
+/*#region Min Width*/
 .min-Width-100 {
     min-width: 100%;
 }
+/*#endregion Min Width*/
 
-/*========================= Customize Form */
+/*#region Customize Form */
 .si-form-inline .si-form-group-left {
     float: left;
     margin-right: 5px;
@@ -659,8 +715,9 @@
     float: right;
     margin-left: 5px;
 }
+/*#endregion Customize Form */
 
-/*========================= Google Chrome */
+/*#region Google Chrome */
 input::-webkit-calendar-picker-indicator {
     display: none;
 }
@@ -668,3 +725,4 @@ input::-webkit-calendar-picker-indicator {
 input[type="date"]::-webkit-input-placeholder {
     visibility: hidden !important;
 }
+/*#endregion Google Chrome */
