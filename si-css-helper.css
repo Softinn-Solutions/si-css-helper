@@ -449,6 +449,10 @@
     font-size: 15pt;
 }
 
+.font-size-17pt{
+    font-size: 17pt;
+}
+
 .font-size-18pt {
     font-size: 18pt;
 }
@@ -716,6 +720,12 @@
     margin-left: 5px;
 }
 /*#endregion Customize Form */
+
+/*#region Customize Word Break */
+.word-break-normal {
+    word-break: break-word;
+}
+/*#endregion Word Break  */
 
 /*#region Google Chrome */
 input::-webkit-calendar-picker-indicator {
