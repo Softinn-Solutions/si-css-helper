@@ -403,7 +403,7 @@
     clear: both;
 }
 
-.fkex-content-center {
+.flex-content-center {
     display: flex;
     justify-content: center;
 }
