@@ -400,13 +400,41 @@
 /*#endregion Layout Padding : Right */
 
 /*#region Layout  */
-.full-width {
-    width: 100%;
-    display: block;
+.width-10-percent {
+    width: 10%;
+}
+
+.width-20-percent {
+    width: 20%;
+}
+
+.width-30-percent {
+    width: 30%;
+}
+
+.width-50-percent {
+    width: 50%;
+}
+
+.width-60-percent {
+    width: 60%;
 }
 
 .width-70-percent {
     width: 70%;
+}
+
+.width-80-percent {
+    width: 80%;
+}
+
+.width-90-percent {
+    width: 90%;
+}
+
+.full-width {
+    width: 100%;
+    display: block;
 }
 
 .full-height {
@@ -495,6 +523,10 @@
 
 .background-grey {
     background-color: #fafbfb;
+}
+
+.background-lightgrey {
+    background-color: lightgrey;
 }
 
 .background-black {
@@ -614,7 +646,7 @@
     font-size: 15pt;
 }
 
-.font-size-17pt{
+.font-size-17pt {
     font-size: 17pt;
 }
 
@@ -746,6 +778,10 @@
 
 .vertical-align-bottom {
     vertical-align: bottom;
+}
+
+.text-align-right {
+    text-align: right;
 }
 
 .text-align-left {
@@ -921,8 +957,16 @@
 /*#endregion Additional Support for AngularJS ng-cloak */
 
 /*#region Min Width*/
-.min-Width-100 {
+.min-width-100 {
     min-width: 100%;
+}
+
+.min-width-49 {
+    min-width: 49%;
+}
+
+.min-width-47 {
+    min-width: 47%;
 }
 /*#endregion Min Width*/
 
