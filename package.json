@@ -1,19 +1,19 @@
 {
-    "name": "@softinn/si-css-helper",
-    "version": "1.0.17",
-    "description": "Some useful css classes that complements twitter bootstrap",
+    "name": "@softinn-solutions/si-css-helper",
+    "version": "1.0.20",
+    "description": "Some useful css classes that complements twitter bootstrap 3",
     "author": "Softinn",
     "license": "MIT",
     "private": false,
     "devDependencies": {},
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
     "scripts": {
         "test": "echo \"No test scripts implemented.\" && exit 1",
-        "publish-node-package": "npm publish --access public",
-        "unpublish-node-package": "npm unpublish --force"
+        "publish-node-package": "npm publish"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jeeshenlee/si-css-helper.git"
+        "url": "https://github.com/Softinn-Solutions/si-css-helper.git"
     },
     "keywords": [
         "softinn",
