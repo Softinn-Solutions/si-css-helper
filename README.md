@@ -10,7 +10,7 @@ Make sure you have referenced to Twitter Bootstrap stylesheets before you includ
 ### Installing
 
 ```
-npm install si-css-helper
+npm install @softinn-solutions/si-css-helper
 ```
 
 You may consider using WebPack to move the included si-css-helper to the folder of your web app. Below is an example we did using WebPack (TypeScript version).
