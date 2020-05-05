@@ -1,10 +1,10 @@
 # Softinn CSS Helper
 
-A simple css helper that complements Twitter Bootstrap.
+A simple css helper that complements Twitter Bootstrap 3.
 
 ## Getting Started
 
-Make sure you have reference to Twitter Bootstrap stylesheets before you includes si-css-helper.css.
+Make sure you have referenced to Twitter Bootstrap stylesheets before you include si-css-helper.css.
 
 
 ### Installing
@@ -41,7 +41,7 @@ export default config;
 
 ## Authors
 
-The list of [contributors](https://github.com/jeeshenlee/si-css-helper/graphs/contributors) who participated in this project.
+The list of [contributors](https://github.com/Softinn-Solutions/si-css-helper/graphs/contributors) who participated in this project.
 
 ## License
 
