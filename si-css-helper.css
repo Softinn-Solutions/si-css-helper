@@ -53,6 +53,7 @@
 /*#endregion Layout Margin Horizontal*/
 
 /*#region Layout Margin Top */
+
 .margin-top-1px {
     margin-top: 1px;
 }
@@ -289,6 +290,10 @@
 
 .padding-top-5px {
     padding-top: 5px;
+}
+
+.padding-top-7px {
+    padding-top: 7px;
 }
 
 .padding-top-10px {
@@ -575,7 +580,7 @@
 
 /*#region Text Colors */
 .text-white {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .text-black {
