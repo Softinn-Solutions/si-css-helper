@@ -1,6 +1,6 @@
 # Softinn CSS Helper
 
-A simple css helper that complements Twitter Bootstrap 3.
+A simple css helper that complements Twitter Bootstrap 3. Added flex box support too.
 
 ## Getting Started
 
