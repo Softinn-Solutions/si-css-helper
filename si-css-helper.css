@@ -186,6 +186,10 @@
 .float-right {
     float: right;
 }
+
+.float-left {
+    float: left;
+}
 /*#endregion Layout Float */
 
 /*#region Layout Margin */
@@ -326,6 +330,10 @@
     margin-left: -20px;
 }
 
+.margin-left-0px {
+    margin-left: 0px;
+}
+
 .margin-left-5px {
     margin-left: 5px;
 }
@@ -403,6 +411,11 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.padding-horizontal-80px {
+    padding-left: 80px;
+    padding-right: 80px;
+}
 /*#region Layout Padding : Horizontal */
 
 /*#region Layout Padding */
@@ -432,6 +445,14 @@
 
 .padding-30px {
     padding: 30px;
+}
+
+.padding-60px {
+    padding: 60px;
+}
+
+.padding-80px {
+    padding: 80px;
 }
 /*#endregion Layout Padding */
 
@@ -615,6 +636,19 @@
     display: flex;
     justify-content: center;
 }
+
+.full-screen {
+    height: 100vh;
+}
+
+.screen-height-60 {
+    height: 60vh;
+}
+
+.screen-height-40 {
+    height: 40vh;
+}
+
 /*#endregion Layout  */
 
 /*#region Looks */
@@ -781,6 +815,14 @@
     font-size: 36px;
 }
 
+.font-size-56px {
+    font-size: 56px;
+}
+
+.font-size-60px {
+    font-size: 60px;
+}
+
 .font-size-80px {
     font-size: 80px;
 }
@@ -924,6 +966,30 @@
 }
 /*#endregion Line Height */
 
+/*===================#region Element Align*/
+.element-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.element-center-down {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*#endregion Element Align */
+
+.position-relative {
+    position: relative;
+}
+
 /*#region Text Align */
 .vertical-align-top {
     vertical-align: top;
@@ -977,6 +1043,11 @@
 /*#endregion padding in Buttons */
 
 /*#region Buttons */
+.btn-l {
+    padding: 15px 50px;
+    font-size: 17px;
+}
+
 .btn-xl {
     padding: 18px 28px;
     font-size: 22px;
@@ -1008,6 +1079,12 @@
         text-align: left;
     }
 /*#endregion Buttons */
+
+/*#region Border*/
+.border-black-1 {
+    border: 1px solid black;
+}
+/*#endregion Border*/
 
 /*#region Border Radius */
 .b-r-xs {
