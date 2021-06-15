@@ -6,7 +6,7 @@ A simple css helper that complements Twitter Bootstrap 3. Added flex box support
 
 1. Add reference to Bootstrap 3 https://getbootstrap.com/docs/3.3/
 2. Make a copy of si-css-helper.css to your project or install it using npm
-3. 
+
 ### NPM Install
 
 ```
