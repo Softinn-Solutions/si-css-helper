@@ -28,9 +28,16 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <SubType>Content</SubType>
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="si-css-helper-new.css" />
+    <Content Include="si-css-helper-new.min.css" />
     <Content Include="si-css-helper-new.scss" />
     <Content Include="si-css-helper.css" />
     <Content Include="si-device-media-template.css" />
