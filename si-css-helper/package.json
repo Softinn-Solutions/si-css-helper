@@ -1,6 +1,6 @@
 {
     "name": "@softinn-solutions/si-css-helper",
-    "version": "1.0.22",
+    "version": "2.0.00",
     "description": "Some useful css classes that complements twitter bootstrap 3",
     "license": "MIT",
     "private": false,

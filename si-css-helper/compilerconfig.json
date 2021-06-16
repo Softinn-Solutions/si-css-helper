@@ -2,5 +2,13 @@
   {
     "outputFile": "si-css-helper-new.css",
     "inputFile": "si-css-helper-new.scss"
+  },
+  {
+    "outputFile": "_margin.css",
+    "inputFile": "_margin.scss"
+  },
+  {
+    "outputFile": "si-css-helper-2021.css",
+    "inputFile": "si-css-helper-2021.scss"
   }
 ]
