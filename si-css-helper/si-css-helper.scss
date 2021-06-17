@@ -1,29 +1,10 @@
 ﻿/* si-css-helper */
 /* version 2.0.00 */
+/* This is an auto-generated CSS file. Please do not make any changes here because it will be overwritten upon update. */
 
 @import "margin.scss";
 @import "padding.scss";
 @import "color.scss";
-
-/*#region Media Area */
-@media all and (max-width: 1200px) {
-}
-
-@media all and (max-width: 1000px) {
-}
-
-@media (min-width: 768px) {
-    .modal-md {
-        width: 400px;
-    }
-}
-
-@media all and (max-width: 500px) {
-    .btn {
-        font-size: 13px;
-    }
-}
-/*#endregion Media Area */
 
 /*#region Additional Support for Bootstrap */
 .row.display-flex {
@@ -345,13 +326,6 @@
     opacity: 1.0;
 }
 /*#endregion Opacity */
-
-/*#region Background Colors */
-.background-transparent {
-    background-image: none;
-    background-color: transparent !important;
-}
-/*#endregion Background Colors */
 
 /*#region Fonts */
 .text-line-through {
@@ -840,3 +814,17 @@ input[type="date"]::-webkit-input-placeholder {
     visibility: hidden !important;
 }
 /*#endregion Google Chrome */
+
+/*#region Media Area */
+@media (min-width: 768px) {
+    .modal-md {
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .btn {
+        font-size: 13px;
+    }
+}
+/*#endregion Media Area */

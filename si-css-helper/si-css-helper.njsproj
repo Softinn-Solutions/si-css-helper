@@ -28,6 +28,8 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="si-css-helper.css" />
+    <Content Include="si-css-helper.min.css" />
     <Content Include="_color.scss">
       <SubType>Code</SubType>
     </Content>
@@ -44,7 +46,6 @@
     </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
     <Content Include="si-css-helper.scss" />
     <Content Include="si-device-media-template.css" />
   </ItemGroup>
