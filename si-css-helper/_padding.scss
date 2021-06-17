@@ -1,0 +1,33 @@
+@for $counter from 0 through 300 {
+    @if $counter % 4 == 0 or $counter % 5 {
+        .padding-horizontal-#{ $counter }px {
+            padding-left: #{$counter}px;
+            padding-right: #{$counter}px;
+        }
+
+        .padding-vertical-#{ $counter }px {
+            padding-top: #{$counter}px;
+            padding-bottom: #{$counter}px;
+        }
+
+        .padding-top-#{ $counter }px {
+            padding-top: #{$counter}px;
+        }
+
+        .padding-bottom-#{ $counter }px {
+            padding-bottom: #{$counter}px;
+        }
+
+        .padding-left-#{ $counter }px {
+            padding-left: #{$counter}px;
+        }
+
+        .padding-right-#{ $counter }px {
+            padding-right: #{$counter}px;
+        }
+
+        .padding-#{ $counter }px {
+            padding: #{$counter}px;
+        }
+    }
+}

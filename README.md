@@ -4,16 +4,17 @@ A simple css helper that complements Twitter Bootstrap 3. Added flex box support
 
 ## Getting Started
 
-Make sure you have referenced to Twitter Bootstrap stylesheets before you include si-css-helper.css.
+1. Add reference to Bootstrap 3 https://getbootstrap.com/docs/3.3/
+2. Make a copy of si-css-helper.min.css to your project
 
-
-### Installing
+### NPM Install
 
 ```
 npm install @softinn-solutions/si-css-helper
 ```
 
-You may consider using WebPack to move the included si-css-helper to the folder of your web app. Below is an example we did using WebPack (TypeScript version).
+### Other Suggestions
+If you're using the npm package, you may consider using WebPack to copy the si-css-helper.css to the folder of your web app. Below is an example code example (implemented using TypeScript).
 ```
 import * as webpack from 'webpack';
 import * as ExtractTextPlugin from 'extract-text-webpack-plugin';

@@ -1,0 +1,33 @@
+@for $counter from 0 through 300 {
+    @if $counter % 4 == 0 or $counter % 5 {
+        .margin-horizontal-#{ $counter }px {
+            margin-left: #{$counter}px;
+            margin-right: #{$counter}px;
+        }
+
+        .margin-vertical-#{ $counter }px {
+            margin-top: #{$counter}px;
+            margin-bottom: #{$counter}px;
+        }
+
+        .margin-top-#{ $counter }px {
+            margin-top: #{$counter}px;
+        }
+
+        .margin-bottom-#{ $counter }px {
+            margin-bottom: #{$counter}px;
+        }
+
+        .margin-left-#{ $counter }px {
+            margin-left: #{$counter}px;
+        }
+
+        .margin-right-#{ $counter }px {
+            margin-right: #{$counter}px;
+        }
+
+        .margin-#{ $counter }px {
+            margin: #{$counter}px;
+        }
+    }
+}

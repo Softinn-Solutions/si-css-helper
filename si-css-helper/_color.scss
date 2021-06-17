@@ -1,0 +1,62 @@
+$colors: ( 
+    "white": #ffffff, 
+    "black": #000000, 
+    "grey": #fafbfb, 
+    "light-grey": lightgrey,
+
+    // Feel free to edit your company theme colors
+    "primary-green-01": #0E342A,
+    "primary-green-02": #567100,
+    "primary-green-03": #5E7C00,
+    "primary-green-04": #749A00,
+    "primary-green-05": #8EBC00,
+    "primary-green-06": #8BC34A,
+
+    "primary-blue-01": #2798AE,
+    "primary-blue-02": #136786,
+
+    "grey-01": #F9F9F9,
+    "grey-02": #F2F2F2,
+    "grey-03": #B0B5B8,
+    "grey-04": #737779,
+    "grey-05": #676A6C,
+    "grey-06": #4F5152,
+    "grey-07": #363738,
+    "grey-08": #313333,
+
+    "accent-yellow-01": #FED032,
+    "accent-yellow-02": #F2C230,
+
+    "accent-pink-01": #F25C78,
+
+    "accent-brown-01": #822C2B,
+    "accent-brown-02": #593828,
+    "accent-brown-03": #874F1E,
+    "accent-brown-04": #D77927,
+
+    "accent-red-01": #C14F3B,
+
+    "accent-purple-01": #3E1040,
+
+    "accent-green-01": #B5EA10,
+    "accent-green-02": #C5EF45,
+);
+
+@each $color, $color-value in $colors {
+    .text-color-#{ $color } {
+        color: #{ $color-value };
+    }
+
+    .background-color-#{ $color } {
+        background-color: #{ $color-value };
+    }
+
+    .border-color-#{ $color } {
+        border: solid #{ $color-value };
+    }
+}
+
+.background-transparent {
+    background-image: none;
+    background-color: transparent !important;
+}
