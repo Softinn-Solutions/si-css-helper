@@ -1,5 +1,5 @@
 ﻿/* si-css-helper */
-/* version 2.0.00 */
+/* version 2.0.01 */
 /* This is an auto-generated CSS file. Please do not make any changes here because it will be overwritten upon update. */
 
 @import "margin.scss";
@@ -10,11 +10,7 @@
 .row.display-flex {
     display: flex;
     flex-wrap: wrap;
-}
-
-.row.display-flex > [class*='col-'] {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
 .si-h-100 {
@@ -30,142 +26,177 @@
 }
 
 .si-flex-fill {
+    display: flex;
     flex: 1 1 auto !important;
 }
 
 .si-flex-row {
+    display: flex;
     flex-direction: row !important;
 }
 
 .si-flex-column {
+    display: flex;
     flex-direction: column !important;
 }
 
 .si-flex-row-reverse {
+    display: flex;
     flex-direction: row-reverse !important;
 }
 
 .si-flex-column-reverse {
+    display: flex;
     flex-direction: column-reverse !important;
 }
 
 .si-flex-grow-0 {
+    display: flex;
     flex-grow: 0 !important;
 }
 
 .si-flex-grow-1 {
+    display: flex;
     flex-grow: 1 !important;
 }
 
 .si-flex-shrink-0 {
+    display: flex;
     flex-shrink: 0 !important;
 }
 
 .si-flex-shrink-1 {
+    display: flex;
     flex-shrink: 1 !important;
 }
 
 .si-flex-wrap {
+    display: flex;
     flex-wrap: wrap !important;
 }
 
 .si-flex-nowrap {
+    display: flex;
     flex-wrap: nowrap !important;
 }
 
 .si-flex-wrap-reverse {
+    display: flex;
     flex-wrap: wrap-reverse !important;
 }
 
-.si-justify-content-start {
+.si-flex-justify-content-start {
+    display: flex;
     justify-content: flex-start !important;
 }
 
-.si-justify-content-end {
+.si-flex-justify-content-end {
+    display: flex;
     justify-content: flex-end !important;
 }
 
-.si-justify-content-center {
+.si-flex-justify-content-center {
+    display: flex;
     justify-content: center !important;
 }
 
-.si-justify-content-between {
+.si-flex-justify-content-between {
+    display: flex;
     justify-content: space-between !important;
 }
 
-.si-justify-content-around {
+.si-flex-justify-content-around {
+    display: flex;
     justify-content: space-around !important;
 }
 
-.si-justify-content-evenly {
+.si-flex-justify-content-evenly {
+    display: flex;
     justify-content: space-evenly !important;
 }
 
-.si-align-items-start {
+.si-flex-align-items-start {
+    display: flex;
     align-items: flex-start !important;
 }
 
-.si-align-items-end {
+.si-flex-align-items-end {
+    display: flex;
     align-items: flex-end !important;
 }
 
-.si-align-items-center {
+.si-flex-align-items-center {
+    display: flex;
     align-items: center !important;
 }
 
-.si-align-items-baseline {
+.si-flex-align-items-baseline {
+    display: flex;
     align-items: baseline !important;
 }
 
-.si-align-items-stretch {
+.si-flex-align-items-stretch {
+    display: flex;
     align-items: stretch !important;
 }
 
-.si-align-content-start {
+.si-flex-align-content-start {
+    display: flex;
     align-content: flex-start !important;
 }
 
-.si-align-content-end {
+.si-flex-align-content-end {
+    display: flex;
     align-content: flex-end !important;
 }
 
-.si-align-content-center {
+.si-flex-align-content-center {
+    display: flex;
     align-content: center !important;
 }
 
-.si-align-content-between {
+.si-flex-align-content-between {
+    display: flex;
     align-content: space-between !important;
 }
 
-.si-align-content-around {
+.si-flex-align-content-around {
+    display: flex;
     align-content: space-around !important;
 }
 
-.si-align-content-stretch {
+.si-flex-align-content-stretch {
+    display: flex;
     align-content: stretch !important;
 }
 
-.si-align-self-auto {
+.si-flex-align-self-auto {
+    display: flex;
     align-self: auto !important;
 }
 
-.si-align-self-start {
+.si-flex-align-self-start {
+    display: flex;
     align-self: flex-start !important;
 }
 
-.si-align-self-end {
+.si-flex-align-self-end {
+    display: flex;
     align-self: flex-end !important;
 }
 
-.si-align-self-center {
+.si-flex-align-self-center {
+    display: flex;
     align-self: center !important;
 }
 
-.si-align-self-baseline {
+.si-flex-align-self-baseline {
+    display: flex;
     align-self: baseline !important;
 }
 
-.si-align-self-stretch {
+.si-flex-align-self-stretch {
+    display: flex;
     align-self: stretch !important;
 }
 /*#endregion Additional Support for Bootstrap */

@@ -13,6 +13,10 @@ A simple css helper that complements Twitter Bootstrap 3. Added flex box support
 npm install @softinn-solutions/si-css-helper
 ```
 
+
+## How to use Flex
+.display-flex will turn on Flex layout for the div.
+
 ### Other Suggestions
 If you're using the npm package, you may consider using WebPack to copy the si-css-helper.css to the folder of your web app. Below is an example code example (implemented using TypeScript).
 ```
