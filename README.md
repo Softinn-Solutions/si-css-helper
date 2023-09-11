@@ -2,6 +2,9 @@
 
 A simple css helper that complements Twitter Bootstrap 3. Added flex box support too.
 
+## Announcement
+10.Sep.2023: We decided to archive this project since most of the CSS made available in this repo is available on the latest Bootstrap. We recommend using the latest Bootstrap instead.
+
 ## Getting Started
 
 1. Add reference to Bootstrap 3 https://getbootstrap.com/docs/3.3/
